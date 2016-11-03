@@ -36,8 +36,12 @@ public class CreateIT
         EntityManager em = Persistence.createEntityManagerFactory(
                 "ch.bfh.jarchitects.filmbiblio.domain").createEntityManager();
 
+
+        //Transaction get collected
         em.getTransaction().begin();
         em.persist(user);
+        //Collected transactions get executed
+        //If an error shows up - the perviouse transactions get rollbacked (rückgängig gemacht)
         em.getTransaction().commit();
     }
 }

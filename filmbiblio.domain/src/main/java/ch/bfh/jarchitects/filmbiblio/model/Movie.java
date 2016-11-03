@@ -77,7 +77,7 @@ public class Movie
 
     private List<MovieReview> reviews;
 
-    @OneToMany
+    @OneToMany(cascade = CascadeType.ALL)
     public List<MovieReview> getReviews()
     {
         return reviews;
@@ -90,7 +90,7 @@ public class Movie
 
     private List<WaitingList> waitinglist;
 
-    @OneToMany
+    @OneToMany(cascade = CascadeType.ALL)
     public List<WaitingList> getWaitinglist()
     {
         return waitinglist;
@@ -103,7 +103,7 @@ public class Movie
 
     private List<Dvd> dvds;
 
-    @OneToMany
+    @OneToMany(cascade = CascadeType.ALL)
     public List<Dvd> getDvds()
     {
         return dvds;

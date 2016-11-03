@@ -1,9 +1,6 @@
 package ch.bfh.jarchitects.filmbiblio.model;
 
-import javax.persistence.Basic;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.OneToMany;
+import javax.persistence.*;
 import java.util.List;
 
 /**
@@ -53,7 +50,7 @@ public class User
 
     private List<Dvd> dvds;
 
-    @OneToMany
+    @OneToMany(cascade = CascadeType.ALL)
     public List<Dvd> getDvds()
     {
         return dvds;
@@ -66,7 +63,7 @@ public class User
 
     private List<Rent> rents;
 
-    @OneToMany
+    @OneToMany(cascade = CascadeType.ALL)
     public List<Rent> getRents()
     {
         return rents;
@@ -79,7 +76,7 @@ public class User
 
     private List<MovieReview> reviews;
 
-    @OneToMany
+    @OneToMany(cascade = CascadeType.ALL)
     public List<MovieReview> getReviews()
     {
         return reviews;
@@ -92,7 +89,7 @@ public class User
 
     private List<WaitingList> waitinglist;
 
-    @OneToMany
+    @OneToMany(cascade = CascadeType.ALL)
     public List<WaitingList> getWaitinglist()
     {
         return waitinglist;

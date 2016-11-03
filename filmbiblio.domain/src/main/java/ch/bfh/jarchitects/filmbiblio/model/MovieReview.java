@@ -2,6 +2,7 @@ package ch.bfh.jarchitects.filmbiblio.model;
 
 import javax.persistence.Basic;
 import javax.persistence.Entity;
+import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 
 /**
@@ -39,6 +40,7 @@ public class MovieReview
     private User reviewer;
 
     @ManyToOne
+    @Id
     public User getReviewer()
     {
         return reviewer;
@@ -52,6 +54,7 @@ public class MovieReview
     private Movie movie;
 
     @ManyToOne
+    @Id
     public Movie getMovie()
     {
         return movie;

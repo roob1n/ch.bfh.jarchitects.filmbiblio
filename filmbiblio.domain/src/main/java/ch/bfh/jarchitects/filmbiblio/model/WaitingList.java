@@ -1,8 +1,6 @@
 package ch.bfh.jarchitects.filmbiblio.model;
 
-import javax.persistence.Basic;
-import javax.persistence.Entity;
-import javax.persistence.ManyToOne;
+import javax.persistence.*;
 import java.util.Date;
 
 /**
@@ -14,6 +12,7 @@ public class WaitingList
     private Date request_date;
 
     @Basic
+    @Temporal(TemporalType.DATE)
     public Date getRequest_date()
     {
         return request_date;
@@ -27,6 +26,7 @@ public class WaitingList
     private Movie movie;
 
     @ManyToOne
+    @Id
     public Movie getMovie()
     {
         return movie;
@@ -40,6 +40,7 @@ public class WaitingList
     private User user;
 
     @ManyToOne
+    @Id
     public User getUser()
     {
         return user;
