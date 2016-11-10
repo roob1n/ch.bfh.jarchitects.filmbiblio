@@ -1,3 +1,4 @@
-.idea/*/*
-.idea/workspace.xml
-filmbiblio.domain/target/
+*.iml
+.idea/
+target/
+out/
