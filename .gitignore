@@ -1,2 +1,3 @@
-.idea/*
-falmbiblio.damin/target/
+.idea/*/*
+.idea/workspace.xml
+filmbiblio.domain/target/
