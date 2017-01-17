@@ -4,12 +4,13 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
+import java.io.Serializable;
 
 /**
  * Created by Jasmin on 03.11.2016.
  */
 @Entity
-public class Dvd
+public class Dvd implements Serializable
 {
     private Long id;
 

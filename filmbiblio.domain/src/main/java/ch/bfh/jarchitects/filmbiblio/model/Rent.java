@@ -9,6 +9,20 @@ import java.util.Date;
 @Entity
 public class Rent
 {
+    private Dvd dvd;
+
+    @OneToOne(cascade = CascadeType.ALL)
+    @Id
+    public Dvd getDvd()
+    {
+        return dvd;
+    }
+
+    public void setDvd(Dvd dvd)
+    {
+        this.dvd = dvd;
+    }
+
     private Date lent_date;
 
     @Basic
@@ -36,17 +50,5 @@ public class Rent
         this.tenant = tenant;
     }
 
-    private Dvd dvd;
 
-    @OneToOne(cascade = CascadeType.ALL)
-    @Id
-    public Dvd getDvd()
-    {
-        return dvd;
-    }
-
-    public void setDvd(Dvd dvd)
-    {
-        this.dvd = dvd;
-    }
 }

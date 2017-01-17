@@ -9,6 +9,21 @@ import java.util.List;
 @Entity
 public class Movie
 {
+
+    private Long id;
+
+    @GeneratedValue
+    @Id
+    public Long getId()
+    {
+        return id;
+    }
+
+    public void setId(Long id)
+    {
+        this.id = id;
+    }
+
     private String title;
 
     @Basic
@@ -61,19 +76,6 @@ public class Movie
         this.duration = duration;
     }
 
-    private Long id;
-
-    @GeneratedValue
-    @Id
-    public Long getId()
-    {
-        return id;
-    }
-
-    public void setId(Long id)
-    {
-        this.id = id;
-    }
 
     private List<MovieReview> reviews;
 

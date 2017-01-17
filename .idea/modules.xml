@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Filmbiblio.parent.iml" filepath="$PROJECT_DIR$/.idea/Filmbiblio.parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/filmbiblio.rest/ch.bfh.jarchitects.filmbiblio.rest.iml" filepath="$PROJECT_DIR$/filmbiblio.rest/ch.bfh.jarchitects.filmbiblio.rest.iml" />
       <module fileurl="file://$PROJECT_DIR$/filmbiblio.domain/filmbiblio.domain.iml" filepath="$PROJECT_DIR$/filmbiblio.domain/filmbiblio.domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/filmbiblio.service/filmbiblio.service.iml" filepath="$PROJECT_DIR$/filmbiblio.service/filmbiblio.service.iml" />
     </modules>
   </component>
 </project>

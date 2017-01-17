@@ -11,32 +11,6 @@ import javax.persistence.ManyToOne;
 @Entity
 public class MovieReview
 {
-    private Integer rating;
-
-    @Basic
-    public Integer getRating()
-    {
-        return rating;
-    }
-
-    public void setRating(Integer rating)
-    {
-        this.rating = rating;
-    }
-
-    private String review;
-
-    @Basic
-    public String getReview()
-    {
-        return review;
-    }
-
-    public void setReview(String review)
-    {
-        this.review = review;
-    }
-
     private User reviewer;
 
     @ManyToOne
@@ -64,4 +38,32 @@ public class MovieReview
     {
         this.movie = movie;
     }
+
+    private Integer rating;
+
+    @Basic
+    public Integer getRating()
+    {
+        return rating;
+    }
+
+    public void setRating(Integer rating)
+    {
+        this.rating = rating;
+    }
+
+    private String review;
+
+    @Basic
+    public String getReview()
+    {
+        return review;
+    }
+
+    public void setReview(String review)
+    {
+        this.review = review;
+    }
+
+
 }

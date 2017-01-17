@@ -23,13 +23,17 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="ch.bfh.jarchitects.filmbiblio" />
+        <module name="ch.bfh.jarchitects.filmbiblio.rest" />
         <module name="filmbiblio.domain" />
+        <module name="filmbiblio.service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="ch.bfh.jarchitects.filmbiblio" target="1.5" />
+      <module name="ch.bfh.jarchitects.filmbiblio.rest" target="1.5" />
       <module name="filmbiblio.domain" target="1.5" />
       <module name="Filmbiblio.parent" target="1.5" />
+      <module name="filmbiblio.service" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

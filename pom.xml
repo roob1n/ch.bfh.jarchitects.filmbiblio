@@ -10,6 +10,8 @@
     <version>0.0.1-SNAPSHOT</version>
     <modules>
         <module>filmbiblio.domain</module>
+        <module>filmbiblio.service</module>
+        <module>ch.bfh.jarchitects.filmbiblio.rest</module>
     </modules>
 
 </project>

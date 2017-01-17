@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ch.bfh.jarchitects.filmbiblio.rest:war">
+    <output-path>$PROJECT_DIR$/filmbiblio.rest/target</output-path>
+    <root id="archive" name="ch.bfh.jarchitects.filmbiblio.rest-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="ch.bfh.jarchitects.filmbiblio.rest:war exploded" />
+    </root>
+  </artifact>
+</component>
