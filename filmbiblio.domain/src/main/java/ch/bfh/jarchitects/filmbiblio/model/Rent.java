@@ -37,15 +37,15 @@ public class Rent
         this.lent_date = lentdate;
     }
 
-    private User tenant;
+    private Userr tenant;
 
     @ManyToOne
-    public User getTenant()
+    public Userr getTenant()
     {
         return tenant;
     }
 
-    public void setTenant(User tenant)
+    public void setTenant(Userr tenant)
     {
         this.tenant = tenant;
     }

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="filmbiblio.rest:war">
+    <output-path>$PROJECT_DIR$/filmbiblio.rest/target</output-path>
+    <root id="archive" name="filmbiblio.rest-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="filmbiblio.rest:war exploded" />
+    </root>
+  </artifact>
+</component>

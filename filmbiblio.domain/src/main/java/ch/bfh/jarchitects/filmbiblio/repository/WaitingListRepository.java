@@ -1,12 +1,14 @@
 package ch.bfh.jarchitects.filmbiblio.repository;
 
-import org.h2.engine.User;
+import ch.bfh.jarchitects.filmbiblio.model.WaitingList;
+import ch.bfh.jarchitects.filmbiblio.model.specialkeys.UserMovieKey;
 import org.springframework.data.repository.CrudRepository;
 
 /**
  * Created by Jasmin on 17.11.2016.
  */
-public interface WaitingListRepository extends CrudRepository<User, >
+public interface WaitingListRepository
+        extends CrudRepository<WaitingList, UserMovieKey>
 {
 
 

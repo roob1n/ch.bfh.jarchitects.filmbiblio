@@ -7,7 +7,7 @@ import java.util.List;
  * Created by Jasmin on 03.11.2016.
  */
 @Entity
-public class User
+public class Userr
 {
     private String userid;
 

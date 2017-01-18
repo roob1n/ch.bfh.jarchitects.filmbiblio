@@ -23,16 +23,16 @@ public class WaitingList
         this.movie = movie;
     }
 
-    private User user;
+    private Userr user;
 
     @ManyToOne
     @Id
-    public User getUser()
+    public Userr getUser()
     {
         return user;
     }
 
-    public void setUser(User user)
+    public void setUser(Userr user)
     {
         this.user = user;
     }

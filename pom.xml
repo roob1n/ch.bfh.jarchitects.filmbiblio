@@ -11,7 +11,7 @@
     <modules>
         <module>filmbiblio.domain</module>
         <module>filmbiblio.service</module>
-        <module>ch.bfh.jarchitects.filmbiblio.rest</module>
+        <module>filmbiblio.rest</module>
     </modules>
 
 </project>

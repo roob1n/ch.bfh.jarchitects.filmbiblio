@@ -26,15 +26,15 @@ public class Dvd implements Serializable
         this.id = id;
     }
 
-    private User owner;
+    private Userr owner;
 
     @ManyToOne
-    public User getOwner()
+    public Userr getOwner()
     {
         return owner;
     }
 
-    public void setOwner(User owner)
+    public void setOwner(Userr owner)
     {
         this.owner = owner;
     }

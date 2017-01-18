@@ -5,7 +5,7 @@ import java.util.Date;
 /**
  * Created by Jasmin on 03.11.2016.
  */
-public class WaitingList
+public class WaitingListDTO
 {
     private MovieDTO movie;
 

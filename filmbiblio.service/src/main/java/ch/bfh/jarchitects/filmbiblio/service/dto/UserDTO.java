@@ -79,14 +79,14 @@ public class UserDTO
         this.reviews = reviews;
     }
 
-    private List<WaitingList> waitinglist;
+    private List<WaitingListDTO> waitinglist;
 
-    public List<WaitingList> getWaitinglist()
+    public List<WaitingListDTO> getWaitinglist()
     {
         return waitinglist;
     }
 
-    public void setWaitinglist(List<WaitingList> waitinglist)
+    public void setWaitinglist(List<WaitingListDTO> waitinglist)
     {
         this.waitinglist = waitinglist;
     }

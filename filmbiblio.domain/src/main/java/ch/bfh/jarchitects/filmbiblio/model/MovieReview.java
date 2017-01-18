@@ -11,16 +11,16 @@ import javax.persistence.ManyToOne;
 @Entity
 public class MovieReview
 {
-    private User reviewer;
+    private Userr reviewer;
 
     @ManyToOne
     @Id
-    public User getReviewer()
+    public Userr getReviewer()
     {
         return reviewer;
     }
 
-    public void setReviewer(User reviewer)
+    public void setReviewer(Userr reviewer)
     {
         this.reviewer = reviewer;
     }

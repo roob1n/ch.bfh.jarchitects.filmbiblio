@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>ch.bfh.jarchitects.filmbiblio.rest</artifactId>
+    <artifactId>filmbiblio.rest</artifactId>
 
     <name>Filmbiblio REST</name>
 

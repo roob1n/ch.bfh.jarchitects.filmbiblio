@@ -9,13 +9,13 @@ import java.util.Collection;
  */
 public interface UserService
 {
-    public UserDTO create(UserDTO book);
+    public UserDTO create(UserDTO user);
 
-    public UserDTO read(long id);
+    public UserDTO read(String id);
 
     public Collection<UserDTO> list();
 
-    public UserDTO update(UserDTO book);
+    public UserDTO update(UserDTO user);
 
-    public void delete(UserDTO book);
+    public void delete(UserDTO user);
 }

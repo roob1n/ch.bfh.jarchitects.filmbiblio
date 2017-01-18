@@ -3,7 +3,7 @@
  */
 
 import ch.bfh.jarchitects.filmbiblio.model.Dvd;
-import ch.bfh.jarchitects.filmbiblio.model.User;
+import ch.bfh.jarchitects.filmbiblio.model.Userr;
 import org.junit.Test;
 
 import javax.persistence.EntityManager;
@@ -19,7 +19,7 @@ public class CreateIT
     @Test
     public void test()
     {
-        User user = new User();
+        Userr user = new Userr();
         user.setUserid("User1");
         user.setEmail("test@hotmail.com");
 

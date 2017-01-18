@@ -1,11 +1,22 @@
-//package ch.bfh.jarchitects.filmbiblio.repository;
+package ch.bfh.jarchitects.filmbiblio.repository;//package ch.bfh.jarchitects.filmbiblio.repository;
 //
-//import org.h2.engine.User;
+//import org.h2.engine.Userr;
 //import org.springframework.data.repository.CrudRepository;
 //
 ///**
 // * Created by Jasmin on 17.11.2016.
 // */
-//public interface MovieReviewRepository extends CrudRepository<User, >
+//public interface MovieReviewRepository extends CrudRepository<Userr, >
 //{
 //}
+
+import ch.bfh.jarchitects.filmbiblio.model.MovieReview;
+import ch.bfh.jarchitects.filmbiblio.model.specialkeys.UserMovieKey;
+import org.springframework.data.repository.CrudRepository;
+
+public interface MovieReviewRepository
+        extends CrudRepository<MovieReview, UserMovieKey>
+{
+
+
+}
